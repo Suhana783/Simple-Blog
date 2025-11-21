@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "The Complete Guide to Growing Basil at Home",
+    "body": "Learn how to cultivate fresh, aromatic basil in your garden or kitchen windowsill.",
+    "image": "/src/assets/basil.jpg",
+    "tags": ["Gardening", "Culinary"],
+    "date": "November 18, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 2,
+    "title": "Lavender: Ancient Remedy for Modern Stress",
+    "body": "Explore the calming properties of lavender and its traditional uses in stress relief, skincare, and aromatherapy.",
+    "image": "/src/assets/lavender.jpeg",
+    "tags": ["Wellness", "Herbal"],
+    "date": "November 12, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Rosemary: The Herb of Remembrance and Health",
+    "body": "Rosemary has been cherished for centuries for its memory-enhancing benefits and digestive support.",
+    "image": "/src/assets/rosemary.jpeg",
+    "tags": ["Herbal", "Culinary"],
+    "date": "November 10, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 4,
+    "title": "Mint: More Than Just Fresh Breath",
+    "body": "Mint offers refreshing flavor and potent medicinal properties.",
+    "image": "/src/assets/mint.jpeg",
+    "tags": ["Medicinal", "Wellness"],
+    "date": "November 8, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 5,
+    "title": "Thyme: The Antimicrobial Powerhouse",
+    "body": "Thyme is known for its powerful antimicrobial properties.",
+    "image": "/src/assets/thyme.jpg",
+    "tags": ["Herbal", "Medicinal"],
+    "date": "November 5, 2025",
+    "readTime": "6 min read"
+  }
+]
