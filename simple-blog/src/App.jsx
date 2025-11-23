@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   return (
-    <div className="container">
+    <>
       <header className="hero">
         <h1>Herbal Haven</h1>
         <p>
@@ -19,24 +19,26 @@ function App() {
         </p>
       </header>
 
-      <h2 className="section-title">Latest Articles</h2>
+      <div className="container">
+        <h2 className="section-title">Latest Articles</h2>
 
-      <div className="grid">
-        {posts.map((post) => (
-          <PostCard
-            key={post.id}
-            title={post.title}
-            body={post.body}
-            image={post.image}
-            tags={post.tags}
-            date={post.date}
-            readTime={post.readTime}
-          />
-        ))}
+        <div className="grid">
+          {posts.map((post) => (
+            <PostCard
+              key={post.id}
+              title={post.title}
+              body={post.body}
+              image={post.image}
+              tags={post.tags}
+              date={post.date}
+              readTime={post.readTime}
+            />
+          ))}
+        </div>
       </div>
 
       <footer className="footer">© 2025 Herbal Haven</footer>
-    </div>
+    </>
   );
 }
 

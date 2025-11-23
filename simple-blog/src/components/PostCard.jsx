@@ -11,7 +11,7 @@ function PostCard({ title, body, image, tags, date, readTime }) {
         </div>
 
         <h3>{title}</h3>
-        <p>{body.substring(0, 120)}...</p>
+        <p className="description">{body}</p>
 
         <div className="post-info">
           <span>{date}</span>
